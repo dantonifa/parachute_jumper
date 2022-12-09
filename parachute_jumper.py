@@ -60,9 +60,9 @@ class Start (Word_to_guess):
     def __init__(self):
         
         self.word_to_guess = hidden_word[-1]
-        print(self.word_to_guess)
+        #print(self.word_to_guess)
         self.letters_of_word = list(self.word_to_guess)
-        print(self.letters_of_word)
+        #print(self.letters_of_word)
         self.start_game()
     
     def start_game(self):
